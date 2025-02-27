@@ -12,3 +12,44 @@ Um conjunto de classes Java que representam uma parte do domínio de um sistema 
 ## 🚀 Resultados
 Um diagrama de classes em Mermaid Syntax.
 
+classDiagram
+    class AeroportoDTO {
+        BigInteger id
+        String nome
+        String iata
+        MunicipioDTO municipio
+        ConcessionariaDTO concessionaria
+    }
+    
+    class ConcessionariaDTO {
+        BigInteger id
+        String nome
+        String cnpj
+    }
+
+    class EstadoDTO {
+        BigInteger id
+        String sigla
+        String nome
+        PaisDTO pais
+    }
+
+    class MunicipioDTO {
+        BigInteger id
+        String nome
+        EstadoDTO estado
+        boolean capital
+    }
+
+    class PaisDTO {
+        BigInteger id
+        String nome
+        String siglaISO
+        String codigoONU
+        String nomeIngles
+    }
+
+    AeroportoDTO --> MunicipioDTO
+    AeroportoDTO --> ConcessionariaDTO
+    MunicipioDTO --> EstadoDTO
+    EstadoDTO --> PaisDTO
