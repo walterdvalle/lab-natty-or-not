@@ -12,6 +12,7 @@ Um conjunto de classes Java que representam uma parte do domínio de um sistema 
 ## 🚀 Resultados
 Um diagrama de classes em Mermaid Syntax.
 
+```mermaid
 classDiagram
     class AeroportoDTO {
         BigInteger id
@@ -53,3 +54,4 @@ classDiagram
     AeroportoDTO --> ConcessionariaDTO
     MunicipioDTO --> EstadoDTO
     EstadoDTO --> PaisDTO
+```
