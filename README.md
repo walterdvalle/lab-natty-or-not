@@ -1,16 +1,14 @@
-# Título do Projeto Extremamente Aesthetic ;)
+# Conversão de código java em Mermaid Syntax
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Automatizar a fase de projetos de sistemas de informação usando geração automatizada de diagramas.
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+ChaTGPT E código Java
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Um conjunto de classes Java que representam uma parte do domínio de um sistema foram inseridos no ChatGPT e o resultado foi adicionado abaixo.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+Um diagrama de classes em Mermaid Syntax.
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
